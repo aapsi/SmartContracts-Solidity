@@ -15,6 +15,7 @@ contract Counter {
 /* we dont need to create a getCount function instead we can do-> uint public count;
 
 //read function-> we dont have to pay gas
+view-> a view function is a function that can be called to read data from the blockchain, but it cannot modify or write any data to the blockchain.
     function getCount() public view returns(uint) {
         return count;// public means we can access the smart contract from anywhere; also we will have read access to it after we deploy the smart contract
     }
