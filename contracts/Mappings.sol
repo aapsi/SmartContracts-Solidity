@@ -14,4 +14,4 @@ contract MyContract {
         names[1] = "Adam";
         names[2] = "Aapsi";
         names[3] = "Avon";
-    }
+    }}
