@@ -25,6 +25,8 @@ contract MyContract {
 
     // local variable
     //pure-> does not modify the state of the blockchain
+    //Solidity also contains pure functions, which means you're not even accessing any data in the app.
+    //This function doesn't even read from the state of the app — its return value depends only on its function parameters
     function getValue() public pure returns(uint) {
         uint value = 1;// this cannot be accesed from any other function as this is a local variable its scole lies within this function
         return value;

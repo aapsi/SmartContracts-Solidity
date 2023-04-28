@@ -6,83 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_value",
-						"type": "string"
-					}
-				],
-				"name": "addValue",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "array2D",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "stringArray",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "uintArray",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "valueCount",
+				"name": "countEven",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -97,16 +22,35 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "isEven",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "values",
+				"name": "numbers",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -126,7 +70,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyContract2.sol": "MyContract"
+			"contracts/ConditionalsLoops.sol": "MyContract"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -140,12 +84,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MyContract2.sol": {
-			"keccak256": "0x38372d0ec5f787fe6185ff8a7cb25f0349bfe770866f92c104f1ca5b4a4e518b",
+		"contracts/ConditionalsLoops.sol": {
+			"keccak256": "0x6e5ce5db5ec3133973cc7064d03830eaffdbcb464334de303c1d9a87a0b6b6a4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://23863ad367a1681b84b70e0603c9a0e941dba6981bea8c10c9af495e1499c10f",
-				"dweb:/ipfs/Qme28nE3pNnb6xz59n2MGJyptVRsdLewfWKZNKdoH6p5VQ"
+				"bzz-raw://9544c0e58108dbfc789081cd03aeb349ee83ac366cc21e1bffed7fccf20e3ec8",
+				"dweb:/ipfs/QmZ3StfAy7csGU2qGwkRtXimD9rrpAiYejza5yvkrQo6Ae"
 			]
 		}
 	},
