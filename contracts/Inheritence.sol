@@ -15,7 +15,7 @@ contract Ownable {
 }
 // is -> enables inheritance
 contract MyContract is Ownable {
-    // Inheritance - where you inherit properties from parent smart contract
+    // Inheritance - where you inherit properties from parent Smart contract
     // Factories - where you deploy smartcontracts within a contract
     // Interaction - when you wanna talk to other smart contracts inside a smart contract function
 
