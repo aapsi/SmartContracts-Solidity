@@ -33,14 +33,17 @@ contract SecretVault {
 
 contract Secret is Ownable {
     address secretVault;
+    // we need an address to reference the secret valut smart contract
 
     constructor(string memory _secret) {
         SecretVault _secretVault = new SecretVault(_secret);
+        //here we created a secret valut whenever this smart contract is deployed
         secretVault = address(_secretVault);
         super;
     }
 
     function getSecret() public view onlyOwner returns (string memory) {
         return SecretVault(secretVault).getSecret();
+        // here we are calling a smart contract inside a snother smart contract by giving its address
     }
 }
